@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #0B2C4D;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+a.active{
+  color:#0B2C4D;
+}
+.container{
+  padding-left:10% ;
+  padding-right: 10%;
+}
+.btn{
+  background-color: #0B2C4D;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border:0;
+  cursor: pointer;
+}
+.button{
+  background-color: #fff;
+  color: #0B2C4D;
+  margin: 20px 0;
+}
+.btn:hover{
+  background-color: #0d74db;
+  color: #fff;
+}

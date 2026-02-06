@@ -1,0 +1,108 @@
+.about-page {
+  background-color: #fff;
+}
+
+.about-header {
+  padding: 100px 0 30px;
+  text-align: center;
+  background-color: #0B2C4D;
+ 
+}
+
+.about-header h1 {
+  color: #fff;
+  font-size: 36px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.about-content {
+  padding: 80px 10%;
+}
+
+.about-content h2 {
+  font-size: 26px;
+  color: #0B2C4D;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  line-height: 1.8;
+  color: #0B2C4D;
+  max-width: 800px;
+}
+
+.about-description {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.about-text {
+  width: 40%;
+}
+
+.about-description img {
+  width: 60%;
+  height: 420px;
+  object-fit: cover;
+  
+
+}
+
+.vision-mission-flow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+}
+.mission-flow {
+  flex: 1;
+  max-width: 520px; 
+}
+
+
+.vision-flow {
+  flex: 1;
+  max-width: 520px;
+}
+.span{
+    color:#27AE60;
+}
+.college-values{
+    margin: 50px 0;
+    width: 300px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+
+.college-value h2{
+  margin: 40px;
+  text-align: center;
+}
+
+.college-values img{
+  width: 50px;height: 50px;
+  margin:0 40%;
+
+}
+.about-container{
+  border: 2px solid #0B2C4D;
+  color: #0B2C4D;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(52, 255, 69, 0.1);
+  border-radius: 20px;
+  background-color: #e6e9ec;
+  
+}
+.about-container h3{
+  text-align: center;
+}
+.our-values{
+  
+}

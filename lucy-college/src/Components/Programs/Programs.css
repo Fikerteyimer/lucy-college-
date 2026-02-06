@@ -1,0 +1,18 @@
+.programs {
+  min-height: 100vh;        
+  background-color: #ffffff; 
+  width: 100%;
+}
+.programs-header{
+    background-color: #0B2C4D;
+    padding: 100px 0 30px;
+    text-align: center;
+
+}
+.programs-header h1 {
+  color: #fff;
+  font-size: 36px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
