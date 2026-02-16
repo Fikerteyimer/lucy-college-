@@ -1,0 +1,28 @@
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  background-color: #0d74db;
+  padding: 40px;
+  margin: 10px;
+  margin: 30px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.stat p {
+  font-size: 1.2rem;
+  color: #fff;
+}

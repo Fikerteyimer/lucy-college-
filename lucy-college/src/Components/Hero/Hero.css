@@ -1,16 +1,19 @@
-.hero{
-    width:100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;  
-    padding: 60px 20px;
-    
+.hero-container{
+  background-image: url("\Users\HP\Desktop\Lucy college\lucy-college\src\assets\homebackground.jpg");
+  background-size: cover;
+  height: 550px;
+  min-height: 550px;
+ 
 }
+
+
 .hero-text{
-    max-width: 500px;
+    max-width: 600px;
     line-height: 2;
+    margin:70px 50px;
+    padding: 70px 70px;
+    color: #fff;
+    
 }
 .hero-text h1{
     font-size: 2.5em;;
@@ -19,11 +22,3 @@
     max-width: 700px;
 }
 
-.hero-img{
-    width: 800px;
-    height: 420px;
-    object-fit: contain;
-    border-radius: 100px;
-    border-color: #0B2C4D;
-   
-}
