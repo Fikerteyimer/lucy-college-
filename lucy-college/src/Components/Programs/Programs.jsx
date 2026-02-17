@@ -9,7 +9,7 @@ import management from "../../assets/management.jpg";
 import resource from "../../assets/resource.jpg";
 import development from "../../assets/development.jpg";
 
-const courses = [
+export const courses = [
   {
     id: 1,
     image: nursing,
@@ -130,3 +130,4 @@ const Programs = () => {
 };
 
 export default Programs;
+

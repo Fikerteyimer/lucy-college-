@@ -2,6 +2,8 @@ import React from "react";
 import './Hero.css';
 import hero from "../../assets/hero.jpg"; 
 import HeroStats from "./HeroStats";
+import AboutSection from "../About/AboutSection";
+import ProgramsSection from "../Programs/ProgramsSection";
 const Hero=()=>{
     return(
         <>
@@ -18,7 +20,12 @@ const Hero=()=>{
         </div>  
         
             </div>
-            <HeroStats/></>
+            <HeroStats/>
+            <AboutSection/>
+            <ProgramsSection/>
+            
+            
+            </>
             
     )
 }

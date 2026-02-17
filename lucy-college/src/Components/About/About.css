@@ -103,6 +103,13 @@
 .about-container h3{
   text-align: center;
 }
-.our-values{
-  
+.small-about{
+  margin:50px;
+  max-width: 50%;
+}
+.small-about h1,p{
+  line-height: 2;
+}
+.small-about button{
+  margin: 20px 0;
 }

@@ -1,24 +1,71 @@
-.hero-container{
-  background-image: url("\Users\HP\Desktop\Lucy college\lucy-college\src\assets\homebackground.jpg");
+.hero-container {
+  background-image: url("../../assets/homebackground.jpg");
   background-size: cover;
-  height: 550px;
-  min-height: 550px;
- 
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 60px;
 }
 
-
-.hero-text{
-    max-width: 600px;
-    line-height: 2;
-    margin:70px 50px;
-    padding: 70px 70px;
-    color: #fff;
-    
-}
-.hero-text h1{
-    font-size: 2.5em;;
-}
-.hero-text p{
-    max-width: 700px;
+/* dark overlay */
+.hero-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 44, 77, 0.65);
 }
 
+.hero-text {
+  position: relative;
+  color: #fff;
+  max-width: 650px;
+  margin-left: 60px;
+  animation: fadeUp 1s ease;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 17px;
+}
+
+.span {
+  color: #00c6ff;
+}
+
+/* button */
+.button {
+  padding: 14px 28px;
+  border: none;
+  background: #00c6ff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #009ed1;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
