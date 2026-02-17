@@ -1,6 +1,6 @@
 import { courses } from "./Programs";
 import { Link } from "react-router-dom";
-import school from "../../assets/school.jpg"; 
+
 
 const ProgramsSection = () => {
   const homeCourses = courses.slice(1, 4);

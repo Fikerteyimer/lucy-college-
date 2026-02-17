@@ -1,11 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import hero from "../../assets/hero.jpg"; 
+import school from "../../assets/school.jpg"; 
 const AboutSection = () => {
   const navigate = useNavigate();
 
   return (
     <div className="small-about">
-      
+      <div className="Container">
+     
+      <div className="cont">
       <h1>Why you choose us?</h1>
       <p>
         Our faculty consists of experienced educators and industry professionals 
@@ -14,9 +17,13 @@ const AboutSection = () => {
         both academically and personally. Students at Lucy Business and Tech College 
         benefit from a hands-on approach to learning, with access to state-of-the-art 
         facilities, modern computer labs, and cutting-edge technology that create 
-        a dynamic and engaging environment.
-      </p>
-      <button className="btn" onClick={() => navigate('/about')}>More About Us</button>
+        a dynamic and engaging environment.</p>
+        <button className="btn" onClick={() => navigate('/about')}>More About Us</button>
+      
+      </div>
+       <img src={school}/>
+      </div>
+      
     </div>
   );
 }
